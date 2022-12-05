@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelos de Software</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Modelos de<b> Software</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="#"> <i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="#"> <i class="fab fa-youtube"> </i> Videos</a></li>
+                        <li class="menu-selected"><a href="blog.html" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>Blog</a></li>
+                        <li><a href="#"> <i class="fas fa-headset"></i> Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="blog-container-cover">
+        <div class="container-info-cover">
+            <h1>Modelos de Desarrollo de Software</h1>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="container-post">
+
+        <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="CASCADA" name="categories" value="CASCADA">
+        <input type="radio" id="XP" name="categories" value="XP">
+        <input type="radio" id="SCRUM" name="categories" value="SCRUM">
+
+        <div class="container-category">
+            <label for="TODOS">TODOS</label>
+            <label for="CASCADA">CASCADA</label>
+            <label for="XP">XP</label>
+            <label for="SCRUM">SCRUM</label>
+
+        </div>
+
+        <div class="posts">
+
+            <div class="post" data-category="CASCADA">
+
+                <div class="ctn-img">
+                    <img src="img/articulos/pagina-web-tipo-blog.jpg" alt="">
+                </div>
+                <h2>Explicación del modelo cascada</h2>
+                <span>28 noviembre 2022 - 1:32 pm</span>
+                <ul class="ctn-tag">
+                    <li>CASCADA</li>
+                </ul>
+                <a href="articulo.html"><button>Leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="XP">
+
+                <div class="ctn-img"><img src="img/articulos/Slider-comparacion-imagenes-js.jpg" alt=""></div>
+                <h2>Explicación del modelo XP</h2>
+                <span>16 noviembre 2022 - 5:42 pm</span>
+                <ul class="ctn-tag">
+                    <li>XP</li>
+                </ul>
+                <a href="articulo-XP.html"><button>Leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="SCRUM">
+
+                <div class="ctn-img"><img src="img/articulos/efecto-hover-avanzado-css.jpg" alt=""></div>
+                <h2>Explicación del modelo SCRUM</h2>
+                <span>29 noviembre 2022 - 1:11 am</span>
+                <ul class="ctn-tag">
+                    <li>SCRUM</li>
+                </ul>
+                <a href="articulo-SCRUM.html"><button>Leer más</button></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container-footer">	
+
+        <footer>
+           
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+
+            <hr>
+            <h4>Contactanos - 6441899440</h4>
+
+        </footer>
+
+    </div>
+
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
